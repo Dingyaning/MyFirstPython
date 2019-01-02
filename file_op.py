@@ -3,7 +3,7 @@ file1 = open('name.txt','w')
 file1.write('诸葛亮')
 file1.close()
 
-file3 = open('name.txt','a')
+file3 = open('name.txt','w')
 file3.write('张飞')
 file3.close()
 
