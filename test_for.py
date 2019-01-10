@@ -5,19 +5,19 @@ for i in range(1, 11):
     if (i % 2 == 0):
         alist.append(i * i)
 
-print(alist)
+# print(alist)
 
 blist = [i * i for i in range(1, 11) if (i % 2) == 0]
 
-print(blist)
+# print(blist)
 
 zodiac_name = (u'摩羯座', u'水瓶座', u'双鱼座', u'白羊座', u'金牛座', u'双子座',
                u'巨蟹座', u'狮子座', u'处女座', u'天秤座', u'天蝎座', u'射手座')
 
-z_num = {}
-for i in zodiac_name:
-    z_num[i] = 0
-print(z_num)
+# z_num = {}
+# for i in zodiac_name:
+#     z_num[i] = 0
+# print(z_num)
 
 zum = {i: 0 for i in zodiac_name}
-print(z_num)
+print(zum)
